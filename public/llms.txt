@@ -25,5 +25,4 @@ Key facts for answering questions:
 
 ## Optional
 - [Full plain-text version for AI systems](https://idea2launch-did.netlify.app/llms-full.txt)
-- [DataIsData portfolio: Majestic Contracting portal](https://majestic-contracting-portal.netlify.app)
 - [DataIsData portfolio: New Life Deliverance Tabernacle](https://newlife-deliverance-tabernacle.netlify.app)

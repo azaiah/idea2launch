@@ -4,11 +4,9 @@ Source: https://idea2launch-did.netlify.app/ (updated 2026-10-24)
 
 Built by the team behind these live sites and portals:
 
-- Majestic Contracting portal
+- New Life Deliverance Tabernacle
  
 - Loc'd In Vanity bookings
- 
-- New Life Deliverance Tabernacle
  
 - OG Barnes
 
@@ -202,14 +200,11 @@ You know your audience. You need a home for them that isn't a link-in-bio.
  
 Idea2Launch uses the same components and process behind these DataIsData builds. Open them and click around.
 
-### Majestic Contracting
-Contractor website with a client and operations portal.majestic-contracting-portal.netlify.app
+### New Life Deliverance Tabernacle
+Church website with a custom member portal.newlife-deliverance-tabernacle.netlify.app
 
 ### Loc'd In Vanity
 Salon site with online booking.locd-in-vanity.netlify.app/book
-
-### New Life Deliverance Tabernacle
-Church website with a custom member portal.newlife-deliverance-tabernacle.netlify.app
 
 ### OG Barnes
 Brand website.ogbarnes.netlify.app
