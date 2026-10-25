@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Idea2Launch by DataIsData — Your idea as a working website + dashboard in 5 days</title>
+<meta name="description" content="Turn a business, app or nonprofit idea into a live website with a working admin dashboard in 3–5 business days. Fixed price from $799 (blueprints from $299). Built by DataIsData developers, not a DIY tool.">
+<link rel="canonical" href="https://idea2launch-dataisdata.netlify.app/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#14213d">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Idea2Launch by DataIsData">
+<meta property="og:title" content="The idea you've been sitting on, live in five days">
+<meta property="og:description" content="DataIsData turns your idea into a working website and dashboard. Fixed price from $799. Introductory pricing for our first 10 customers.">
+<meta property="og:url" content="https://idea2launch-dataisdata.netlify.app/">
+<meta property="og:image" content="https://idea2launch-dataisdata.netlify.app/assets/img/og-idea2launch.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Idea2Launch: a napkin sketch becoming a live website and dashboard">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The idea you've been sitting on, live in five days">
+<meta name="twitter:description" content="A working website + dashboard for your idea. Fixed price from $799, by DataIsData.">
+<meta name="twitter:image" content="https://idea2launch-dataisdata.netlify.app/assets/img/og-idea2launch.png">
+
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="alternate" type="text/plain" title="LLM summary" href="/llms.txt">
+
+<link rel="preload" href="/assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://idea2launch-dataisdata.netlify.app/#org",
+      "name": "DataIsData",
+      "legalName": "DataIsData, LLC",
+      "description": "DataIsData is a web development and AI automation agency that builds custom websites, backend portals and AI agents for service businesses, churches and nonprofits.",
+      "logo": "https://idea2launch-dataisdata.netlify.app/assets/img/dataisdata-mark-ink.png",
+      "founder": [
+        {"@type": "Person", "name": "Tony Wood", "jobTitle": "Owner"},
+        {"@type": "Person", "name": "Azaiah Wood", "jobTitle": "Developer & Solutions Architect"}
+      ],
+      "areaServed": "US",
+      "knowsAbout": ["MVP development", "Prototype development", "Web development", "Admin dashboards", "Client portals", "AI automation"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://idea2launch-dataisdata.netlify.app/#site",
+      "url": "https://idea2launch-dataisdata.netlify.app/",
+      "name": "Idea2Launch by DataIsData",
+      "publisher": {"@id": "https://idea2launch-dataisdata.netlify.app/#org"},
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://idea2launch-dataisdata.netlify.app/#service",
+      "name": "Idea2Launch",
+      "brand": {"@type": "Brand", "name": "Idea2Launch", "logo": "https://idea2launch-dataisdata.netlify.app/assets/img/idea2launch-app-icon.png", "slogan": "Your idea. Our technology. Brought to life."},
+      "logo": "https://idea2launch-dataisdata.netlify.app/assets/img/idea2launch-app-icon.png",
+      "serviceType": "Prototype and MVP website development",
+      "description": "A fixed-price service that turns a business, app or nonprofit idea into a working prototype: a live website, a light admin dashboard and one to three working features, delivered in 3–7 business days.",
+      "provider": {"@id": "https://idea2launch-dataisdata.netlify.app/#org"},
+      "areaServed": {"@type": "Country", "name": "United States"},
+      "audience": {"@type": "Audience", "audienceType": "Entrepreneurs, small business owners, nonprofits, churches and first-time founders"},
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Idea2Launch packages",
+        "itemListElement": [
+          {"@type": "Offer", "name": "Idea Blueprint", "price": "299", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "description": "Concept outline, feature plan, visual mockup and roadmap in 24–48 hours. No live website.", "url": "https://idea2launch-dataisdata.netlify.app/start/?package=blueprint"},
+          {"@type": "Offer", "name": "Idea2Launch Prototype", "price": "799", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "description": "Live website, light admin dashboard, one working feature, private demo and one revision round in 3–5 business days.", "url": "https://idea2launch-dataisdata.netlify.app/start/?package=prototype"},
+          {"@type": "Offer", "name": "Idea2Launch Plus", "price": "1499", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "description": "Polished website, dashboard, up to three working features, expanded roadmap and two revision rounds in 5–7 business days.", "url": "https://idea2launch-dataisdata.netlify.app/start/?package=plus"}
+        ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "How Idea2Launch turns an idea into a working prototype",
+      "totalTime": "P5D",
+      "estimatedCost": {"@type": "MonetaryAmount", "currency": "USD", "value": "799"},
+      "step": [
+        {"@type": "HowToStep", "position": 1, "name": "Describe your idea", "text": "Fill out a 5-minute intake form: the idea, who it's for, the outcome you want and the one feature that matters most."},
+        {"@type": "HowToStep", "position": 2, "name": "Choose a package and pay securely", "text": "Pick Blueprint, Prototype or Plus and pay the fixed price through Square."},
+        {"@type": "HowToStep", "position": 3, "name": "Fit check and scope", "text": "Within one business day DataIsData confirms the scope in writing. If the idea doesn't fit the package, you get the right package or a full refund."},
+        {"@type": "HowToStep", "position": 4, "name": "Build", "text": "DataIsData builds the website, dashboard and working feature using proven components and AI-assisted development."},
+        {"@type": "HowToStep", "position": 5, "name": "Demo and revision", "text": "You get a private live demo link, a walkthrough, a roadmap for what's next and a revision round."}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "How much does it cost to turn an idea into a working prototype?", "acceptedAnswer": {"@type": "Answer", "text": "With Idea2Launch, an Idea Blueprint is $299, a working Prototype (live website, admin dashboard and one working feature) is $799, and Prototype Plus (up to three features) is $1,499. Prices are fixed and paid up front. For comparison, agencies commonly quote $5,000 to $150,000 for a full MVP."}},
+        {"@type": "Question", "name": "How fast will I see my idea working?", "acceptedAnswer": {"@type": "Answer", "text": "Blueprints are delivered in 24–48 hours. Prototypes take 3–5 business days and Plus takes 5–7 business days, counted from when your scope is confirmed."}},
+        {"@type": "Question", "name": "What's the difference between a prototype and a finished app?", "acceptedAnswer": {"@type": "Answer", "text": "A prototype is the first working version of your idea: a real, live website and dashboard with one to three features that actually work, built to show, test and pitch. It is not a production platform with payments, user accounts at scale, complex integrations or regulated data. DataIsData can quote that next phase separately."}},
+        {"@type": "Question", "name": "Do I need to be technical?", "acceptedAnswer": {"@type": "Answer", "text": "No. You describe the idea in plain words. DataIsData handles the design, code, hosting setup and walkthrough."}},
+        {"@type": "Question", "name": "Who owns the idea and the work?", "acceptedAnswer": {"@type": "Answer", "text": "You own your idea. Your submission is kept confidential and never shared or reused. Once paid in full, the website content and design created for you are yours."}},
+        {"@type": "Question", "name": "What if my idea is too big for the package?", "acceptedAnswer": {"@type": "Answer", "text": "Every idea gets a fit check within one business day of payment, before work starts. If it doesn't fit, DataIsData recommends the right package or refunds you in full."}},
+        {"@type": "Question", "name": "Is Idea2Launch better than using a DIY AI app builder?", "acceptedAnswer": {"@type": "Answer", "text": "DIY builders are cheap but leave you to do the design, debugging and setup yourself. Idea2Launch is done for you by developers who build client portals and dashboards for real businesses, with a fixed price, a deadline and a walkthrough."}}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="has-mobile-cta">
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-check" viewBox="0 0 20 20"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M4 10.5l4 4 8-9"/></symbol>
+  <symbol id="i-x" viewBox="0 0 20 20"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M5 5l10 10M15 5L5 15"/></symbol>
+  <symbol id="i-web" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 9h18" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-dash" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path fill="currentColor" d="M13 2L4 14h6l-1 8 9-12h-6z"/></symbol>
+  <symbol id="i-map" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2-6-2zM9 4v14M15 6v14"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path fill="currentColor" d="M10 8.5v7l6-3.5z"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 20 20"><rect x="4" y="9" width="12" height="8" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 9V7a3 3 0 016 0v2" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+</svg>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Idea2Launch by DataIsData, home">
+      <img class="brand-mark" src="/assets/img/idea2launch-mark.png" alt="" width="40" height="40">
+      <span><span class="brand-name">Idea2Launch</span><span class="brand-by"><img src="/assets/img/dataisdata-mark-ink.png" alt="" width="13" height="13">Presented by DataIsData</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#work">Our work</a>
+      <a href="#faq">Questions</a>
+      <a class="btn" href="/start/">Start my idea</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO: the live builder -->
+<section class="hero blueprint" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div>
+      <h1 id="hero-title">The idea you've been sitting on, live in five days.</h1>
+      <p class="lede">Tell us your business, app or nonprofit idea. DataIsData builds it into a real website with a working back-office dashboard, so you can show it, test it and start selling it.</p>
+      <ul class="offer-line">
+        <li><svg width="18" height="18"><use href="#i-check"/></svg>Fixed price from $799</li>
+        <li><svg width="18" height="18"><use href="#i-check"/></svg>3–5 business days</li>
+        <li><svg width="18" height="18"><use href="#i-check"/></svg>Built by real developers</li>
+      </ul>
+
+      <form class="idea-form" id="idea-form" novalidate>
+        <label for="idea">What's your idea? Try it now. It's free.</label>
+        <textarea class="idea-input" id="idea" name="idea" maxlength="600" placeholder="e.g. A booking site for my mobile car detailing business where customers pick a package and a time"></textarea>
+        <div class="idea-actions">
+          <button class="btn btn-lg" type="submit" id="show-btn">Show me my idea working</button>
+          <a href="#pricing" class="small">See prices</a>
+        </div>
+        <div class="chips" aria-label="Example ideas">
+          <span>Or try:</span>
+          <button type="button" class="chip" data-idea="Bookings for my mobile dog grooming business">Dog grooming bookings</button>
+          <button type="button" class="chip" data-idea="Volunteer and donor sign-ups for our church food pantry">Church volunteer sign-ups</button>
+          <button type="button" class="chip" data-idea="Online catering orders for my BBQ business">BBQ catering orders</button>
+          <button type="button" class="chip" data-idea="A marketplace where people hire local DJs for parties">Local DJ marketplace</button>
+        </div>
+      </form>
+      <p class="trust-line">Introductory pricing for our first 10 customers. Secure checkout by Square.</p>
+    </div>
+
+    <div class="builder" id="builder" aria-live="polite">
+      <div class="napkin" aria-hidden="true">
+        <div class="napkin-label">Your idea</div>
+        <div class="napkin-text" id="napkin-text">A booking site for my detailing business<span class="caret"></span></div>
+      </div>
+
+      <div class="browser" id="browser">
+        <div class="browser-bar">
+          <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="url"><b id="url-name">detailhub</b>.idea2launch.app</div>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Prototype preview">
+          <button class="tab" role="tab" id="tab-site" aria-selected="true" aria-controls="screen-site">Website</button>
+          <button class="tab" role="tab" id="tab-dash" aria-selected="false" aria-controls="screen-dash" tabindex="-1">Your dashboard</button>
+        </div>
+        <div class="screen" id="screen-site" role="tabpanel" aria-labelledby="tab-site">
+          <div class="mini-nav b-step" style="--i:0"><span class="mini-logo"><i></i><span id="p-name">DetailHub</span></span><span class="mini-links" aria-hidden="true"><i></i><i></i><i></i></span></div>
+          <p class="mini-h b-step" style="--i:1" id="p-tagline">A booking site for my detailing business</p>
+          <p class="mini-p b-step" style="--i:2" id="p-aud">Built for people who want to book you without the back-and-forth.</p>
+          <div class="mini-form b-step" style="--i:3" id="p-form">
+            <span class="mini-field">Name</span><span class="mini-field">Service</span><span class="mini-field">Preferred date</span>
+            <span class="mini-btn">Book a time</span>
+          </div>
+          <div class="mini-features b-step" style="--i:4" id="p-features"></div>
+        </div>
+        <div class="screen" id="screen-dash" role="tabpanel" aria-labelledby="tab-dash" hidden>
+          <div class="dash-head"><strong id="d-title">Requests</strong><span>Only you can see this</span></div>
+          <div class="kpis">
+            <div class="kpi"><b id="k1">12</b><small>This week</small></div>
+            <div class="kpi"><b id="k2">3</b><small>New today</small></div>
+            <div class="kpi"><b>100%</b><small>Captured</small></div>
+          </div>
+          <table class="dtable">
+            <thead><tr id="d-cols"><th>Client</th><th>Service</th><th>Date</th><th>Status</th></tr></thead>
+            <tbody id="d-rows"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="build-status" id="build-status" role="status"></div>
+
+      <div class="concept" id="concept" hidden>
+        <h3 id="c-title">What we'd build first</h3>
+        <div class="concept-grid">
+          <div><h4>The one feature that works</h4><p id="c-fn" style="margin:0;font-weight:700;color:var(--ink)"></p><h4 style="margin-top:1rem">Who it's for</h4><p id="c-aud" style="margin:0" class="small"></p></div>
+          <div><h4>In your prototype</h4><ul id="c-features"></ul></div>
+          <div><h4>On your roadmap, later</h4><ul id="c-roadmap"></ul></div>
+          <div><h4>Our suggestion</h4><p id="c-rec" style="margin:0" class="small"></p></div>
+        </div>
+        <div class="cta-row">
+          <a class="btn" id="c-cta" href="/start/">Build this for real</a>
+          <p>This is a quick sketch. On a real build, a developer reads every word you write.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF -->
+<section class="proof" aria-label="Sites built by DataIsData">
+  <div class="wrap">
+    <p>Built by the team behind these live sites and portals:</p>
+    <ul>
+      <li><a href="https://majestic-contracting-portal.netlify.app" rel="noopener" target="_blank">Majestic Contracting portal</a></li>
+      <li><a href="https://locd-in-vanity.netlify.app/book" rel="noopener" target="_blank">Loc'd In Vanity bookings</a></li>
+      <li><a href="https://newlife-deliverance-tabernacle.netlify.app" rel="noopener" target="_blank">New Life Deliverance Tabernacle</a></li>
+      <li><a href="https://ogbarnes.netlify.app" rel="noopener" target="_blank">OG Barnes</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- THE GAP -->
+<section aria-labelledby="gap-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="gap-title">Every other route is too slow, too expensive or leaves you doing the work.</h2>
+      <p>Agencies quote thousands and months. Freelancers disappear. DIY app builders give you half an app and a weekend of debugging. Idea2Launch sits in the middle: a real build, done for you, at a price you can say yes to today.</p>
+    </div>
+    <div class="compare-wrap">
+      <table class="compare">
+        <thead>
+          <tr><th scope="col"><span class="visually-hidden">Compare</span></th><th scope="col">Dev agency</th><th scope="col">Freelancer</th><th scope="col">DIY AI builder</th><th scope="col" class="us">Idea2Launch</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Typical cost</th><td data-label="Dev agency">$5,000–$150,000 for an MVP</td><td data-label="Freelancer">Hourly, open-ended</td><td data-label="DIY AI builder">Monthly subscription plus your time</td><td data-label="Idea2Launch" class="us"><strong>$299 / $799 / $1,499, fixed</strong></td></tr>
+          <tr><th scope="row">Time to something you can show</th><td data-label="Dev agency">2–6 months</td><td data-label="Freelancer">Weeks, if it ships</td><td data-label="DIY AI builder">Depends on you</td><td data-label="Idea2Launch" class="us"><strong>24 hours to 7 business days</strong></td></tr>
+          <tr><th scope="row">Who does the work</th><td data-label="Dev agency">Their team</td><td data-label="Freelancer">One person</td><td data-label="DIY AI builder">You</td><td data-label="Idea2Launch" class="us"><strong>DataIsData developers</strong></td></tr>
+          <tr><th scope="row">Back-office dashboard</th><td data-label="Dev agency">Yes, at a price</td><td data-label="Freelancer">Sometimes</td><td data-label="DIY AI builder">If you can wire it</td><td data-label="Idea2Launch" class="us"><strong>Included in every build</strong></td></tr>
+          <tr><th scope="row">Risk if it isn't a fit</th><td data-label="Dev agency">Deposit gone</td><td data-label="Freelancer">Varies</td><td data-label="DIY AI builder">Your weekends</td><td data-label="Idea2Launch" class="us"><strong>Fit check before work, or a full refund</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="source-note">Agency range from <a href="/guides/how-much-does-it-cost-to-build-a-prototype/">our 2026 prototype cost guide</a>, which cites published industry pricing.</p>
+  </div>
+</section>
+
+<!-- WHAT YOU GET -->
+<section class="blueprint" aria-labelledby="get-title" style="border-block:1px solid var(--rule)">
+  <div class="wrap get-grid">
+    <figure class="get-figure" style="margin:0">
+      <img src="/assets/img/hero-sketch-to-app.webp" alt="A hand-drawn napkin sketch of a website turning into a glowing, finished interface" width="1600" height="893" loading="lazy">
+    </figure>
+    <div>
+      <h2 id="get-title">What's in your hands on delivery day</h2>
+      <p class="lede" style="margin-bottom:2rem">Not a slideshow. A real link you can text to a partner, a pastor, an investor or your first customer.</p>
+      <ul class="get-list">
+        <li><span class="ico"><svg width="20" height="20"><use href="#i-web"/></svg></span><div><h3>A live website for your idea</h3><p>A clean, mobile-ready page that explains what you do and invites people in.</p></div></li>
+        <li><span class="ico"><svg width="20" height="20"><use href="#i-bolt"/></svg></span><div><h3>A feature that actually works</h3><p>Bookings, orders, sign-ups, listings or intake. Someone fills it out and it really arrives.</p></div></li>
+        <li><span class="ico"><svg width="20" height="20"><use href="#i-dash"/></svg></span><div><h3>Your own behind-the-scenes dashboard</h3><p>See every submission in one place, update its status and know exactly who's interested.</p></div></li>
+        <li><span class="ico"><svg width="20" height="20"><use href="#i-map"/></svg></span><div><h3>A roadmap for what's next</h3><p>What the full version needs, in plain language, in the order that matters.</p></div></li>
+        <li><span class="ico"><svg width="20" height="20"><use href="#i-play"/></svg></span><div><h3>A walkthrough and a revision round</h3><p>We show you everything and adjust it with you before we call it done.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS (real sequence) -->
+<section class="on-ink" id="how" aria-labelledby="how-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="how-title">From "I've got an idea" to a link you can share</h2>
+      <p style="color:#c3cbdb">Five steps. About five minutes of your time up front, then we take it from there.</p>
+    </div>
+    <ol class="steps">
+      <li><h3>Describe it</h3><p>A short form: the idea, who it's for, and the one thing it must do.</p><span class="when">5 minutes</span></li>
+      <li><h3>Pick a package</h3><p>Fixed prices, paid securely through Square. No hourly surprises.</p><span class="when">Same day</span></li>
+      <li><h3>We confirm the scope</h3><p>A fit check and a written scope, or the right package, or your money back.</p><span class="when">Within 1 business day</span></li>
+      <li><h3>We build</h3><p>Proven components and AI-assisted development, so you get speed without the guesswork.</p><span class="when">1–5 business days</span></li>
+      <li><h3>You see it working</h3><p>Private demo link, walkthrough, roadmap and your revision round.</p><span class="when">Delivery day</span></li>
+    </ol>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" aria-labelledby="pricing-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="pricing-title">One fixed price. Pay once, see it working.</h2>
+      <p>Most people start with the Prototype. If you're still shaping the idea, the Blueprint is a smart first step, and you can apply it toward a build later.</p>
+    </div>
+    <div class="spots" id="spots" hidden>
+      <span class="spots-bar" id="spots-bar" aria-hidden="true"></span>
+      <span id="spots-text">Introductory pricing for our first 10 customers</span>
+    </div>
+    <div class="plans">
+      <article class="plan" aria-labelledby="p1">
+        <h3 id="p1">Idea Blueprint</h3>
+        <p class="for">For shaping the idea before you build, or pitching it to a partner.</p>
+        <div class="price">$299</div>
+        <p class="turn">Delivered in 24–48 hours</p>
+        <ul>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Concept outline: what it does, who it serves</li>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Feature recommendations, ranked</li>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Visual mockup of the main screen</li>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Step-by-step build roadmap</li>
+          <li class="no"><svg width="16" height="16"><use href="#i-x"/></svg>No live website</li>
+        </ul>
+        <a class="btn btn-ghost" href="/start/?package=blueprint">Get my Blueprint</a>
+      </article>
+
+      <article class="plan featured" aria-labelledby="p2">
+        <span class="plan-tag">Most chosen</span>
+        <h3 id="p2">Idea2Launch Prototype</h3>
+        <p class="for">For seeing your idea actually work, and showing it to real people.</p>
+        <div class="price">$799</div>
+        <p class="turn">Delivered in 3–5 business days</p>
+        <ul>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Live, mobile-ready website</li>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Your own admin dashboard</li>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>One working feature (booking, orders, sign-ups, intake…)</li>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Concept outline and roadmap</li>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Private demo link and walkthrough</li>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>One revision round</li>
+        </ul>
+        <a class="btn" href="/start/?package=prototype">Build my prototype</a>
+      </article>
+
+      <article class="plan" aria-labelledby="p3">
+        <h3 id="p3">Idea2Launch Plus</h3>
+        <p class="for">For ideas with a few moving parts, like marketplaces, memberships or multi-step flows.</p>
+        <div class="price">$1,499</div>
+        <p class="turn">Delivered in 5–7 business days</p>
+        <ul>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Everything in Prototype</li>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Polished multi-section website</li>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Up to three working features</li>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Expanded roadmap with phase estimates</li>
+          <li><svg width="16" height="16"><use href="#i-check"/></svg>Two revision rounds</li>
+        </ul>
+        <a class="btn btn-ghost" href="/start/?package=plus">Build my Plus prototype</a>
+      </article>
+    </div>
+
+    <div class="assurances">
+      <div class="assurance"><h3>Fit guarantee</h3><p>We review every idea within one business day of payment, before any work starts. If it doesn't fit your package, we'll recommend the right one or refund you in full.</p></div>
+      <div class="assurance"><h3>Your idea stays yours</h3><p>Everything you share is confidential. We never reuse or share your concept, and the content and design we make for you are yours once paid.</p></div>
+      <div class="assurance"><h3>Clear scope, no surprises</h3><p>Prototypes use sample data and leave out payments, complex integrations and sensitive records. Those come in a quoted next phase if you want them.</p></div>
+    </div>
+
+    <div class="care">
+      <p><strong>After delivery:</strong> keep your prototype online with Launch Care hosting and small updates from $99/month, or ask us to quote the full build.</p>
+      <a href="#faq" class="small">How the next phase works</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHO IT'S FOR -->
+<section class="blueprint" aria-labelledby="who-title" style="border-block:1px solid var(--rule)">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="who-title">Built for people with an idea, not a dev team</h2>
+      <p>If you've ever said "somebody should build an app for that," this is for you.</p>
+    </div>
+    <div class="people">
+      <article class="person">
+        <figure><img src="/assets/img/persona-founder.webp" alt="An entrepreneur at her kitchen table at night with a laptop and a notebook of ideas" width="720" height="894" loading="lazy"></figure>
+        <h3>First-time founders</h3>
+        <p>You've filled notebooks. Now you need something real to show a partner or an investor.</p>
+        <p class="ex">"A subscription box for natural hair care"</p>
+      </article>
+      <article class="person">
+        <figure><img src="/assets/img/persona-smallbiz.webp" alt="A small business owner in his work truck reviewing a booking app on a tablet" width="720" height="894" loading="lazy"></figure>
+        <h3>Small business owners</h3>
+        <p>You're running everything through texts and calls. You want bookings and orders in one place.</p>
+        <p class="ex">"Let customers request a quote and pick a day"</p>
+      </article>
+      <article class="person">
+        <figure><img src="/assets/img/persona-nonprofit.webp" alt="A nonprofit director in a busy community center holding a laptop" width="720" height="894" loading="lazy"></figure>
+        <h3>Nonprofits and churches</h3>
+        <p>Your mission is clear. Your sign-up sheet is a clipboard. Let's change that.</p>
+        <p class="ex">"Volunteer sign-ups for our Saturday food pantry"</p>
+      </article>
+      <article class="person">
+        <figure><img src="/assets/img/persona-creator.webp" alt="A young creator sketching an app idea in a notebook at a cafe" width="720" height="894" loading="lazy"></figure>
+        <h3>Side-hustlers and creators</h3>
+        <p>You know your audience. You need a home for them that isn't a link-in-bio.</p>
+        <p class="ex">"A waitlist and booking page for my coaching program"</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work" aria-labelledby="work-title">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="work-title">We build websites and portals for real organizations</h2>
+      <p>Idea2Launch uses the same components and process behind these DataIsData builds. Open them and click around.</p>
+    </div>
+    <div class="work">
+      <a href="https://majestic-contracting-portal.netlify.app" target="_blank" rel="noopener"><h3>Majestic Contracting</h3><p>Contractor website with a client and operations portal.</p><span class="host">majestic-contracting-portal.netlify.app</span></a>
+      <a href="https://locd-in-vanity.netlify.app/book" target="_blank" rel="noopener"><h3>Loc'd In Vanity</h3><p>Salon site with online booking.</p><span class="host">locd-in-vanity.netlify.app/book</span></a>
+      <a href="https://newlife-deliverance-tabernacle.netlify.app" target="_blank" rel="noopener"><h3>New Life Deliverance Tabernacle</h3><p>Church website with a custom member portal.</p><span class="host">newlife-deliverance-tabernacle.netlify.app</span></a>
+      <a href="https://ogbarnes.netlify.app" target="_blank" rel="noopener"><h3>OG Barnes</h3><p>Brand website.</p><span class="host">ogbarnes.netlify.app</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="faq" aria-labelledby="faq-title" style="background:#fff;border-top:1px solid var(--rule)">
+  <div class="wrap faq-grid">
+    <div>
+      <h2 id="faq-title">Straight answers</h2>
+      <p class="muted">Still unsure? Send us your idea and ask. There's no charge to submit.</p>
+      <p><a href="/guides/">Read our guides on turning ideas into products</a></p>
+    </div>
+    <div>
+      <details open><summary>How much does it cost to turn an idea into a working prototype?</summary><div class="answer"><p>An Idea Blueprint is <strong>$299</strong>. A working Prototype, with a live website, admin dashboard and one working feature, is <strong>$799</strong>. Prototype Plus, with up to three features, is <strong>$1,499</strong>. Prices are fixed and paid up front through Square. For comparison, agencies commonly quote $5,000 to $150,000 for a full MVP.</p></div></details>
+      <details><summary>How fast will I see my idea working?</summary><div class="answer"><p>Blueprints arrive in 24–48 hours. Prototypes take 3–5 business days and Plus takes 5–7, counted from when your scope is confirmed (usually the same or next business day).</p></div></details>
+      <details><summary>What's the difference between a prototype and a finished app?</summary><div class="answer"><p>A prototype is the first working version of your idea: a real, live website and dashboard where one to three features actually work. It's built to show, test and pitch. It isn't a production platform with card payments, large user bases, complex integrations or regulated data like health records. We can quote that next phase once you've seen your prototype.</p></div></details>
+      <details><summary>Do I need to be technical?</summary><div class="answer"><p>No. You describe the idea in plain words, and we handle the design, code and setup, then walk you through it on a call.</p></div></details>
+      <details><summary>Who owns my idea and the work?</summary><div class="answer"><p>You own your idea. What you submit is confidential and never reused or shared. Once you've paid in full, the website content and design we make for you are yours. Details are in our <a href="/terms/">service terms</a>.</p></div></details>
+      <details><summary>What if my idea is too big for the package?</summary><div class="answer"><p>Every idea gets a fit check within one business day of payment, before we start. If it doesn't fit, we'll recommend the right package (and you only pay the difference) or refund you in full.</p></div></details>
+      <details><summary>Why not just use a DIY AI app builder?</summary><div class="answer"><p>DIY builders are cheap, but you're the designer, the tester and the person who fixes things at midnight. With Idea2Launch, developers who build portals for real businesses do it for you, with a fixed price, a deadline and a walkthrough.</p></div></details>
+      <details><summary>What happens after delivery?</summary><div class="answer"><p>You keep the demo link to share. If you want it to stay online and get small updates, Launch Care starts at $99/month. When you're ready for the full version, we'll quote it from your roadmap.</p></div></details>
+      <details><summary>Can I pay in installments?</summary><div class="answer"><p>Packages are paid up front, which is how we keep prices this low and turnaround this fast. Square Checkout may offer buy-now-pay-later options such as Afterpay or Cash App Pay, depending on your eligibility.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="on-ink final" aria-labelledby="final-title">
+  <div class="wrap final-inner">
+    <div>
+      <h2 id="final-title">Five days from now, you could be sending people a link to your idea.</h2>
+      <p class="lede">Or you could keep it in the notebook another year. It takes five minutes to start.</p>
+    </div>
+    <div class="final-actions">
+      <a class="btn btn-lg" href="/start/?package=prototype">Build my prototype for $799</a>
+      <a class="btn btn-ghost btn-lg" style="color:#fff;border-color:#3a4766" href="/start/?package=blueprint">Start with a $299 Blueprint</a>
+      <p class="note">Fit guarantee: if your idea isn't a fit, you get your money back before we start.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="/"><img class="brand-mark" src="/assets/img/idea2launch-mark-white.png" alt="" width="40" height="40"><span><span class="brand-name">Idea2Launch</span><span class="brand-by" style="color:#a9b3c7"><img src="/assets/img/dataisdata-mark-white.png" alt="" width="13" height="13">Presented by DataIsData</span></span></a>
+      <p>Your idea. Our technology. Brought to life.</p>
+    </div>
+    <div><h4>Idea2Launch</h4><ul><li><a href="/start/">Start your idea</a></li><li><a href="/#pricing">Pricing</a></li><li><a href="/#how">How it works</a></li><li><a href="/#faq">Questions</a></li></ul></div>
+    <div><h4>Guides</h4><ul><li><a href="/guides/how-much-does-it-cost-to-build-a-prototype/">Prototype costs in 2026</a></li><li><a href="/guides/blueprint-vs-prototype-vs-mvp/">Blueprint vs prototype vs MVP</a></li><li><a href="/guides/turn-your-business-idea-into-an-app/">Turn your idea into an app</a></li></ul></div>
+    <div><h4>Company</h4><ul><li><a href="https://dataisdata.com" rel="noopener">DataIsData</a></li><li><a href="/terms/">Service terms</a></li><li><a href="/privacy/">Privacy</a></li></ul></div>
+    <div class="legal"><span>Idea2Launch is a service of <a href="https://dataisdata.com" rel="noopener">DataIsData, LLC</a>. © <span id="yr">2026</span> All rights reserved.</span><span>Payments processed securely by Square.</span></div>
+  </div>
+</footer>
+
+<div class="mobile-cta" id="mobile-cta">
+  <span>Working prototype<br>from $799</span>
+  <a class="btn" href="/start/">Start my idea</a>
+</div>
+
+<script type="module" src="/assets/js/home.js"></script>
+</body>
+</html>

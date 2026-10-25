@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You're in — Idea2Launch by DataIsData</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#14213d">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+<link rel="preload" href="/assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+<header class="site-header"><div class="wrap"><a class="brand" href="/"><img class="brand-mark" src="/assets/img/idea2launch-mark.png" alt="" width="40" height="40"><span><span class="brand-name">Idea2Launch</span><span class="brand-by"><img src="/assets/img/dataisdata-mark-ink.png" alt="" width="13" height="13">Presented by DataIsData</span></span></a></div></header>
+<main class="center-page blueprint">
+  <div class="wrap" style="display:grid;place-items:center">
+    <div class="panel">
+      <p class="hand" style="font-size:1.7rem;color:var(--line);margin:0 0 .25rem" id="hello">It's happening.</p>
+      <h1 style="font-size:clamp(1.9rem,4vw,2.6rem)" id="headline">Your idea is in our hands.</h1>
+      <p id="ref-line">Your reference is <span class="ticket" id="ref">—</span></p>
+      <p id="status-line" class="lede" style="font-size:1.1rem"></p>
+      <h2 style="font-size:1.2rem;margin-top:1.5rem">What happens next</h2>
+      <ol class="next-steps" id="next-steps">
+        <li><strong>Within 1 business day:</strong> we email you a written scope for your build and ask any questions.</li>
+        <li><strong>Build:</strong> we get to work as soon as you confirm the scope.</li>
+        <li><strong>Delivery:</strong> you get a private demo link and a walkthrough, plus your roadmap.</li>
+      </ol>
+      <p class="muted small">Didn't get an email within one business day? Check your spam folder, then reply to any DataIsData email or message us on social with your reference.</p>
+      <p style="margin-top:1.5rem"><a class="btn btn-ink" href="/">Back to Idea2Launch</a></p>
+      <p class="small muted" style="margin-top:1.25rem">Know someone sitting on an idea? Send them <a href="/" id="share-link">this page</a>.</p>
+    </div>
+  </div>
+</main>
+<script>
+(async () => {
+  const p = new URLSearchParams(location.search);
+  const ref = (p.get("ref") || "").toUpperCase();
+  const mode = p.get("mode");
+  const refEl = document.getElementById("ref");
+  const st = document.getElementById("status-line");
+  if (!ref) { document.getElementById("ref-line").hidden = true; return; }
+  refEl.textContent = ref;
+  if (mode === "invoice") {
+    document.getElementById("headline").textContent = "Your idea is saved. Your invoice is on its way.";
+    st.textContent = "We'll email a secure Square invoice for your package shortly. Work starts once it's paid and your scope is confirmed.";
+  }
+  const share = document.getElementById("share-link");
+  if (navigator.share) share.addEventListener("click", (e) => { e.preventDefault(); navigator.share({ title: "Idea2Launch", text: "Turn your idea into a working website in days", url: location.origin }); });
+  for (let i = 0; i < 6; i++) {
+    try {
+      const r = await fetch("/api/order-status?ref=" + encodeURIComponent(ref));
+      if (!r.ok) break;
+      const o = await r.json();
+      if (o.firstName) document.getElementById("hello").textContent = "It's happening, " + o.firstName + ".";
+      if (o.paid) { st.textContent = "Payment confirmed for your " + o.package + ". Target delivery: " + o.turnaround + " after scope is confirmed."; break; }
+      if (mode !== "invoice") st.textContent = "We're confirming your payment with Square. This can take a few seconds.";
+    } catch { break; }
+    await new Promise((r) => setTimeout(r, 2500));
+  }
+  if (mode !== "invoice" && st.textContent.startsWith("We're confirming")) st.textContent = "Thanks! If your payment went through, your Square receipt is in your email. We'll confirm on our side shortly.";
+  try { (window.dataLayer = window.dataLayer || []).push({ event: "purchase_return", ref }); } catch {}
+})();
+</script>
+</body>
+</html>

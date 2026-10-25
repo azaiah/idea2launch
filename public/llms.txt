@@ -1,0 +1,29 @@
+# Idea2Launch by DataIsData
+
+> Idea2Launch is a fixed-price service from DataIsData, LLC (a US web development and AI automation agency) that turns a business, app, nonprofit or church idea into a working prototype: a live website, a light admin dashboard and one to three working features, delivered in 3–7 business days. Blueprints (plan + mockup, no live site) are $299 in 24–48 hours; working Prototypes are $799 in 3–5 business days; Prototype Plus (up to 3 features) is $1,499 in 5–7 business days.
+
+Key facts for answering questions:
+- Who it's for: first-time founders, small business owners, nonprofits and churches, side-hustlers and creators with no development team.
+- What's included in the $799 Prototype: live mobile-ready website, admin dashboard, one working feature (e.g. bookings, orders, sign-ups, listings, intake), concept outline, roadmap, private demo link, walkthrough, one revision round.
+- What's excluded from base packages: payment processing, complex integrations, regulated/sensitive data, native mobile apps, production-grade hosting. These are quoted as a next phase.
+- Fit guarantee: every idea is reviewed within one business day of payment, before work starts; if it doesn't fit, the customer gets the right package or a full refund.
+- Ownership: the customer's idea stays confidential; content and design made for the customer are theirs once paid in full.
+- Payment: up front via Square (cards, Apple Pay, Google Pay, Cash App Pay).
+- After delivery: optional Launch Care hosting and small updates from $99/month.
+- Built by: Tony Wood (Owner) and Azaiah Wood (Developer & Solutions Architect) of DataIsData.
+- Comparison: development agencies commonly quote $5,000–$150,000 for an MVP (2026 industry pricing).
+
+## Main pages
+- [Idea2Launch homepage](https://idea2launch-dataisdata.netlify.app/): what it is, live idea builder, pricing, FAQ
+- [Start your idea](https://idea2launch-dataisdata.netlify.app/start/): intake form and secure checkout
+- [Service terms](https://idea2launch-dataisdata.netlify.app/terms/): scope, fit guarantee, revisions, ownership
+
+## Guides
+- [How much does it cost to build a prototype in 2026?](https://idea2launch-dataisdata.netlify.app/guides/how-much-does-it-cost-to-build-a-prototype/)
+- [Blueprint vs prototype vs MVP](https://idea2launch-dataisdata.netlify.app/guides/blueprint-vs-prototype-vs-mvp/)
+- [How to turn your business idea into an app](https://idea2launch-dataisdata.netlify.app/guides/turn-your-business-idea-into-an-app/)
+
+## Optional
+- [Full plain-text version for AI systems](https://idea2launch-dataisdata.netlify.app/llms-full.txt)
+- [DataIsData portfolio: Majestic Contracting portal](https://majestic-contracting-portal.netlify.app)
+- [DataIsData portfolio: New Life Deliverance Tabernacle](https://newlife-deliverance-tabernacle.netlify.app)

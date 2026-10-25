@@ -1,0 +1,39 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+  command = "echo 'Static site — no build step'"
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["public/assets/js/concept.js"]
+
+# Pretty URLs are on by default. Security + caching headers:
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    Cache-Control = "no-store"
+
+# Short links for social posts: idea2launch.../idea  →  intake form
+[[redirects]]
+  from = "/idea"
+  to = "/start/?utm_source=social&utm_medium=dm&utm_campaign=idea"
+  status = 302
+
+[[redirects]]
+  from = "/go"
+  to = "/start/"
+  status = 302

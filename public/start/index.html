@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Start your idea — Idea2Launch by DataIsData</title>
+<meta name="description" content="Submit your idea in about five minutes, choose a fixed-price package and pay securely with Square. DataIsData confirms your scope within one business day.">
+<link rel="canonical" href="https://idea2launch-dataisdata.netlify.app/start/">
+<meta name="theme-color" content="#14213d">
+<meta property="og:title" content="Start your idea with Idea2Launch">
+<meta property="og:description" content="Five minutes to submit. A working website and dashboard in days.">
+<meta property="og:image" content="https://idea2launch-dataisdata.netlify.app/assets/img/og-idea2launch.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the form</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Idea2Launch by DataIsData, home">
+      <img class="brand-mark" src="/assets/img/idea2launch-mark.png" alt="" width="40" height="40">
+      <span><span class="brand-name">Idea2Launch</span><span class="brand-by"><img src="/assets/img/dataisdata-mark-ink.png" alt="" width="13" height="13">Presented by DataIsData</span></span>
+    </a>
+    <nav class="nav" aria-label="Main"><a href="/#pricing">Pricing</a><a href="/#faq">Questions</a></nav>
+  </div>
+</header>
+
+<!-- Netlify Forms backup: gives you an email for every intake, no setup. Hidden; JS posts to it. -->
+<form name="idea-intake" data-netlify="true" netlify-honeypot="company_website" hidden>
+  <input name="ref"><input name="package"><input name="name"><input name="email"><input name="phone">
+  <input name="ideaName"><textarea name="idea"></textarea><textarea name="audience"></textarea>
+  <textarea name="outcome"></textarea><textarea name="mustHave"></textarea><input name="inspiration">
+  <input name="timeline"><input name="source"><input name="addons"><input name="company_website">
+</form>
+
+<main id="main" class="intake blueprint">
+  <div class="wrap intake-grid">
+    <div>
+      <h1 style="font-size:clamp(2rem,4.5vw,3rem)">Let's get your idea out of your head.</h1>
+      <p class="lede" style="margin-bottom:2rem">About five minutes. Plain words are perfect. A developer reads every answer.</p>
+
+      <ol class="progress" id="progress" aria-label="Form progress">
+        <li class="active">Your idea</li><li>The details</li><li>Package</li><li>You</li>
+      </ol>
+
+      <form class="panel" id="intake" novalidate>
+        <div class="form-alert" id="alert" role="alert" hidden></div>
+        <div class="hp" aria-hidden="true"><label>Company website<input name="company_website" tabindex="-1" autocomplete="off"></label></div>
+
+        <fieldset data-step="0">
+          <legend>Your idea</legend>
+          <p class="legend-sub">Tell us like you'd tell a friend.</p>
+          <div class="field">
+            <label for="ideaName">Does it have a name yet? <span class="hint" style="display:inline">(optional)</span></label>
+            <input type="text" id="ideaName" name="ideaName" maxlength="80" placeholder="e.g. DetailHub">
+          </div>
+          <div class="field">
+            <label for="ideaText">What's the idea?</label>
+            <span class="hint" id="idea-hint">What does it do, and what problem does it solve?</span>
+            <textarea id="ideaText" name="idea" required minlength="20" maxlength="3000" aria-describedby="idea-hint" placeholder="A website where customers can pick a detailing package, choose a time and send me a booking request. Right now everything comes through texts and I lose track."></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset data-step="1" hidden>
+          <legend>The details</legend>
+          <p class="legend-sub">This is how we make sure the prototype does the right thing.</p>
+          <div class="field">
+            <label for="audience">Who is it for?</label>
+            <span class="hint">Your customers, members, donors, students…</span>
+            <textarea id="audience" name="audience" maxlength="600" style="min-height:4.5rem" placeholder="Car owners in my city who want their car detailed at home or work."></textarea>
+          </div>
+          <div class="field">
+            <label for="mustHave">If it could only do one thing, what would it be?</label>
+            <span class="hint">This becomes the working feature in your prototype.</span>
+            <textarea id="mustHave" name="mustHave" maxlength="600" style="min-height:4.5rem" placeholder="Let customers request a booking and let me see all requests in one place."></textarea>
+          </div>
+          <div class="field">
+            <label for="outcome">What do you want to do with the prototype?</label>
+            <select id="outcome" name="outcome">
+              <option value="">Choose one</option>
+              <option>Start getting real customers or sign-ups</option>
+              <option>Show it to investors, partners or a lender</option>
+              <option>Test whether people want it</option>
+              <option>Replace a manual process (texts, paper, spreadsheets)</option>
+              <option>Get a clear plan and price for the full build</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="two">
+            <div class="field">
+              <label for="inspiration">Any site you like the look of? <span class="hint" style="display:inline">(optional)</span></label>
+              <input type="text" id="inspiration" name="inspiration" maxlength="600" placeholder="A link or a description">
+            </div>
+            <div class="field">
+              <label for="timeline">When do you need it?</label>
+              <select id="timeline" name="timeline">
+                <option>As soon as possible</option>
+                <option>Within 2 weeks</option>
+                <option>Within a month</option>
+                <option>No rush</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset data-step="2" hidden>
+          <legend>Choose your package</legend>
+          <p class="legend-sub">Fixed price. Covered by our fit guarantee.</p>
+          <div class="pkg-options" role="radiogroup" aria-label="Package">
+            <label class="pkg-option"><input type="radio" name="package" value="blueprint"><div><strong>Idea Blueprint</strong><span>Concept outline, feature plan, mockup and roadmap. 24–48 hours. No live website.</span></div><span class="p">$299</span></label>
+            <label class="pkg-option"><input type="radio" name="package" value="prototype" checked><div><strong>Idea2Launch Prototype <span class="rec" id="rec-prototype" hidden>Suggested</span></strong><span>Live website, your dashboard, one working feature, demo and a revision round. 3–5 business days.</span></div><span class="p">$799</span></label>
+            <label class="pkg-option"><input type="radio" name="package" value="plus"><div><strong>Idea2Launch Plus <span class="rec" id="rec-plus" hidden>Suggested</span></strong><span>Polished site, dashboard, up to three working features, two revision rounds. 5–7 business days.</span></div><span class="p">$1,499</span></label>
+          </div>
+          <div class="field" id="rush-wrap" style="margin-top:1.25rem">
+            <label class="check"><input type="checkbox" name="addons" value="rush" id="rush"><span><strong>Priority build, +$199.</strong> We move you to the front of the build queue.</span></label>
+          </div>
+        </fieldset>
+
+        <fieldset data-step="3" hidden>
+          <legend>Where should we send it?</legend>
+          <p class="legend-sub">We'll email your confirmation and scope here.</p>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required maxlength="120">
+          </div>
+          <div class="two">
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required maxlength="200">
+            </div>
+            <div class="field">
+              <label for="phone">Phone <span class="hint" style="display:inline">(optional, for quick questions)</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" maxlength="40">
+            </div>
+          </div>
+          <div class="field">
+            <label for="source">How did you hear about us?</label>
+            <select id="source" name="source">
+              <option value="">Choose one</option>
+              <option>Facebook</option><option>Instagram</option><option>LinkedIn</option><option>TikTok</option>
+              <option>A friend or referral</option><option>Google or AI search</option><option>Other</option>
+            </select>
+          </div>
+          <label class="check" style="margin-bottom:1rem">
+            <input type="checkbox" id="agree" name="agreedToScope" required>
+            <span>I understand this is a <strong>prototype</strong>: a live website and dashboard with the features in my package, using sample data, without payments, complex integrations or sensitive records. I agree to the <a href="/terms/" target="_blank">service terms</a>.</span>
+          </label>
+        </fieldset>
+
+        <div class="form-nav">
+          <button type="button" class="btn btn-ghost" id="back" hidden>Back</button>
+          <button type="button" class="btn" id="next" style="margin-left:auto">Next: the details</button>
+          <button type="submit" class="btn" id="pay" hidden style="margin-left:auto">Continue to secure payment</button>
+        </div>
+      </form>
+    </div>
+
+    <aside class="summary" aria-label="Order summary">
+      <div class="panel">
+        <h2>Your order</h2>
+        <dl id="sum-lines"></dl>
+        <dl><dt class="total">Total</dt><dd class="total" id="sum-total">$799</dd></dl>
+        <p class="small muted" id="sum-turn">Delivered in 3–5 business days after scope is confirmed.</p>
+        <ul>
+          <li>Fit check within 1 business day</li>
+          <li>Full refund if it isn't a fit, before work starts</li>
+          <li>Your idea stays confidential</li>
+        </ul>
+        <p class="secure"><svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true"><rect x="4" y="9" width="12" height="8" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 9V7a3 3 0 016 0v2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>Secure checkout by Square. Cards, Apple Pay, Google Pay and Cash App Pay.</p>
+      </div>
+      <div id="concept-peek" class="panel" style="margin-top:1rem" hidden>
+        <h2 style="font-size:1.05rem">From your sketch</h2>
+        <p class="small" id="peek-text" style="margin:0"></p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div><a class="brand" href="/"><img class="brand-mark" src="/assets/img/idea2launch-mark-white.png" alt="" width="40" height="40"><span><span class="brand-name">Idea2Launch</span><span class="brand-by" style="color:#a9b3c7"><img src="/assets/img/dataisdata-mark-white.png" alt="" width="13" height="13">Presented by DataIsData</span></span></a></div>
+    <div class="legal" style="grid-column:1/-1"><span>© 2026 DataIsData, LLC</span><span><a href="/terms/">Service terms</a> · <a href="/privacy/">Privacy</a></span></div>
+  </div>
+</footer>
+<script type="module" src="/assets/js/start.js"></script>
+</body>
+</html>

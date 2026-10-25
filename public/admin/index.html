@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Idea2Launch dashboard</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+<link rel="preload" href="/assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<style>
+  body { background: var(--paper); }
+  .admin { padding-block: 2rem 4rem; }
+  .login { max-width: 26rem; margin: 10vh auto; }
+  .stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: .75rem; margin-bottom: 1.5rem; }
+  @media (max-width: 860px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+  .stat { background: #fff; border: 1px solid var(--rule); border-radius: 12px; padding: .9rem 1rem; }
+  .stat b { display: block; font: 800 1.7rem/1.1 var(--display); color: var(--ink); font-variation-settings: "wdth" 112; }
+  .stat span { font-size: .85rem; color: var(--muted); }
+  .toolbar { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; margin-bottom: 1rem; }
+  .toolbar input, .toolbar select { padding: .55rem .75rem; border: 1.5px solid #aab3c4; border-radius: 8px; font: inherit; background: #fff; }
+  .toolbar .btn { min-height: 2.6rem; padding: 0 1rem; font-size: .92rem; box-shadow: 0 3px 0 var(--ink); }
+  .layout { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 1rem; align-items: start; }
+  @media (max-width: 960px) { .layout { grid-template-columns: 1fr; } }
+  .list { background: #fff; border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; }
+  .row { display: grid; grid-template-columns: 1fr auto; gap: .25rem 1rem; padding: .85rem 1rem; border-bottom: 1px solid var(--paper-2); cursor: pointer; width: 100%; text-align: left; background: none; border-left: 0; border-right: 0; border-top: 0; font: inherit; color: inherit; }
+  .row:hover, .row[aria-current="true"] { background: #fffbe6; }
+  .row strong { color: var(--ink); }
+  .row .meta { grid-column: 1 / -1; font-size: .85rem; color: var(--muted); }
+  .st { font-size: .75rem; font-weight: 800; padding: .15rem .55rem; border-radius: 999px; background: var(--paper-2); color: var(--ink-2); align-self: start; }
+  .st-paid, .st-scoping, .st-building, .st-review { background: var(--marker); color: var(--ink); }
+  .st-delivered { background: #d5f0e2; color: #0f5a39; }
+  .st-refunded, .st-archived { background: #eee; color: #777; }
+  .detail { background: #fff; border: 2px solid var(--ink); border-radius: 16px; padding: 1.4rem; position: sticky; top: 5rem; }
+  .detail h2 { font-size: 1.4rem; margin-bottom: .25rem; }
+  .detail dl { display: grid; grid-template-columns: 9rem 1fr; gap: .4rem .75rem; font-size: .95rem; margin: 1rem 0; }
+  .detail dt { color: var(--muted); }
+  .detail dd { margin: 0; white-space: pre-wrap; word-break: break-word; }
+  .detail textarea, .detail select, .detail input { width: 100%; padding: .6rem .7rem; border: 1.5px solid #aab3c4; border-radius: 8px; font: inherit; }
+  .notes { list-style: none; padding: 0; margin: .75rem 0 0; font-size: .88rem; max-height: 14rem; overflow: auto; }
+  .notes li { padding: .45rem 0; border-bottom: 1px solid var(--paper-2); }
+  .notes time { color: var(--muted); display: block; font-size: .78rem; }
+  .actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .75rem; }
+  .actions .btn { min-height: 2.5rem; padding: 0 .9rem; font-size: .9rem; box-shadow: 0 3px 0 var(--ink); }
+  .empty { padding: 2rem; text-align: center; color: var(--muted); }
+  .banner { padding: .75rem 1rem; border-radius: 10px; background: #fdf0e8; color: #7a3410; border: 1px solid #f0c3a5; margin-bottom: 1rem; font-size: .95rem; }
+</style>
+</head>
+<body>
+<header class="site-header"><div class="wrap"><a class="brand" href="/"><img class="brand-mark" src="/assets/img/idea2launch-mark.png" alt="" width="40" height="40"><span><span class="brand-name">Idea2Launch</span><span class="brand-by">Owner dashboard · DataIsData</span></span></a><button class="btn btn-ghost" id="logout" hidden style="min-height:2.4rem">Sign out</button></div></header>
+
+<main class="admin wrap">
+  <form class="panel login" id="login">
+    <h1 style="font-size:1.6rem">Owner sign-in</h1>
+    <p class="muted">Use the ADMIN_PASSWORD set in Netlify.</p>
+    <div class="field"><label for="pw">Password</label><input type="password" id="pw" autocomplete="current-password" required style="width:100%;padding:.8rem;border:1.5px solid #aab3c4;border-radius:10px;font:inherit"></div>
+    <div class="form-alert" id="login-err" hidden></div>
+    <button class="btn btn-block" type="submit">Sign in</button>
+  </form>
+
+  <div id="app" hidden>
+    <div id="sq-banner" class="banner" hidden>Square API keys aren't set, so checkout uses your static payment links or invoices. Mark orders paid by hand below.</div>
+    <div class="stats">
+      <div class="stat"><b id="s-leads">0</b><span>Ideas submitted</span></div>
+      <div class="stat"><b id="s-await">0</b><span>Awaiting payment</span></div>
+      <div class="stat"><b id="s-paid">0</b><span>Paid customers</span></div>
+      <div class="stat"><b id="s-prog">0</b><span>In progress</span></div>
+      <div class="stat"><b id="s-rev">$0</b><span>Revenue collected</span></div>
+    </div>
+    <div class="toolbar">
+      <input type="search" id="q" placeholder="Search name, email, idea…" aria-label="Search orders">
+      <select id="f-status" aria-label="Filter by status"><option value="">All statuses</option></select>
+      <button class="btn btn-ghost" id="refresh" type="button">Refresh</button>
+      <button class="btn btn-ghost" id="csv" type="button">Export CSV</button>
+    </div>
+    <div class="layout">
+      <div class="list" id="list"></div>
+      <div id="detail-wrap"><div class="detail empty">Select an idea to see the details.</div></div>
+    </div>
+  </div>
+</main>
+<script type="module" src="/assets/js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,497 @@
+# Idea2Launch by DataIsData — full text for AI systems
+
+Source: https://idea2launch-dataisdata.netlify.app/ (updated 2026-10-24)
+
+Built by the team behind these live sites and portals:
+
+- Majestic Contracting portal
+ 
+- Loc'd In Vanity bookings
+ 
+- New Life Deliverance Tabernacle
+ 
+- OG Barnes
+
+## Every other route is too slow, too expensive or leaves you doing the work.
+ 
+Agencies quote thousands and months. Freelancers disappear. DIY app builders give you half an app and a weekend of debugging. Idea2Launch sits in the middle: a real build, done for you, at a price you can say yes to today.
+
+Compare | Dev agency | Freelancer | DIY AI builder | Idea2Launch | 
+
+Typical cost | $5,000–$150,000 for an MVP | Hourly, open-ended | Monthly subscription plus your time | $299 / $799 / $1,499, fixed | 
+ 
+Time to something you can show | 2–6 months | Weeks, if it ships | Depends on you | 24 hours to 7 business days | 
+ 
+Who does the work | Their team | One person | You | DataIsData developers | 
+ 
+Back-office dashboard | Yes, at a price | Sometimes | If you can wire it | Included in every build | 
+ 
+Risk if it isn't a fit | Deposit gone | Varies | Your weekends | Fit check before work, or a full refund | 
+
+Agency range from our 2026 prototype cost guide, which cites published industry pricing.
+
+## What's in your hands on delivery day
+ 
+Not a slideshow. A real link you can text to a partner, a pastor, an investor or your first customer.
+
+- 
+
+### A live website for your idea
+A clean, mobile-ready page that explains what you do and invites people in.
+ 
+- 
+
+### A feature that actually works
+Bookings, orders, sign-ups, listings or intake. Someone fills it out and it really arrives.
+ 
+- 
+
+### Your own behind-the-scenes dashboard
+See every submission in one place, update its status and know exactly who's interested.
+ 
+- 
+
+### A roadmap for what's next
+What the full version needs, in plain language, in the order that matters.
+ 
+- 
+
+### A walkthrough and a revision round
+We show you everything and adjust it with you before we call it done.
+
+## From "I've got an idea" to a link you can share
+ 
+Five steps. About five minutes of your time up front, then we take it from there.
+
+- 
+
+### Describe it
+A short form: the idea, who it's for, and the one thing it must do.5 minutes
+ 
+- 
+
+### Pick a package
+Fixed prices, paid securely through Square. No hourly surprises.Same day
+ 
+- 
+
+### We confirm the scope
+A fit check and a written scope, or the right package, or your money back.Within 1 business day
+ 
+- 
+
+### We build
+Proven components and AI-assisted development, so you get speed without the guesswork.1–5 business days
+ 
+- 
+
+### You see it working
+Private demo link, walkthrough, roadmap and your revision round.Delivery day
+
+## One fixed price. Pay once, see it working.
+ 
+Most people start with the Prototype. If you're still shaping the idea, the Blueprint is a smart first step, and you can apply it toward a build later.
+
+ Introductory pricing for our first 10 customers
+
+### Idea Blueprint
+ 
+For shaping the idea before you build, or pitching it to a partner.
+ 
+$299
+ 
+Delivered in 24–48 hours
+
+- Concept outline: what it does, who it serves
+ 
+- Feature recommendations, ranked
+ 
+- Visual mockup of the main screen
+ 
+- Step-by-step build roadmap
+ 
+- No live website
+ 
+ Get my Blueprint
+
+ Most chosen
+
+### Idea2Launch Prototype
+ 
+For seeing your idea actually work, and showing it to real people.
+ 
+$799
+ 
+Delivered in 3–5 business days
+
+- Live, mobile-ready website
+ 
+- Your own admin dashboard
+ 
+- One working feature (booking, orders, sign-ups, intake…)
+ 
+- Concept outline and roadmap
+ 
+- Private demo link and walkthrough
+ 
+- One revision round
+ 
+ Build my prototype
+
+### Idea2Launch Plus
+ 
+For ideas with a few moving parts, like marketplaces, memberships or multi-step flows.
+ 
+$1,499
+ 
+Delivered in 5–7 business days
+
+- Everything in Prototype
+ 
+- Polished multi-section website
+ 
+- Up to three working features
+ 
+- Expanded roadmap with phase estimates
+ 
+- Two revision rounds
+ 
+ Build my Plus prototype
+
+### Fit guarantee
+We review every idea within one business day of payment, before any work starts. If it doesn't fit your package, we'll recommend the right one or refund you in full.
+
+### Your idea stays yours
+Everything you share is confidential. We never reuse or share your concept, and the content and design we make for you are yours once paid.
+
+### Clear scope, no surprises
+Prototypes use sample data and leave out payments, complex integrations and sensitive records. Those come in a quoted next phase if you want them.
+
+After delivery: keep your prototype online with Launch Care hosting and small updates from $99/month, or ask us to quote the full build.
+ How the next phase works
+
+## Built for people with an idea, not a dev team
+ 
+If you've ever said "somebody should build an app for that," this is for you.
+
+### First-time founders
+ 
+You've filled notebooks. Now you need something real to show a partner or an investor.
+ 
+"A subscription box for natural hair care"
+
+### Small business owners
+ 
+You're running everything through texts and calls. You want bookings and orders in one place.
+ 
+"Let customers request a quote and pick a day"
+
+### Nonprofits and churches
+ 
+Your mission is clear. Your sign-up sheet is a clipboard. Let's change that.
+ 
+"Volunteer sign-ups for our Saturday food pantry"
+
+### Side-hustlers and creators
+ 
+You know your audience. You need a home for them that isn't a link-in-bio.
+ 
+"A waitlist and booking page for my coaching program"
+
+## We build websites and portals for real organizations
+ 
+Idea2Launch uses the same components and process behind these DataIsData builds. Open them and click around.
+
+### Majestic Contracting
+Contractor website with a client and operations portal.majestic-contracting-portal.netlify.app
+
+### Loc'd In Vanity
+Salon site with online booking.locd-in-vanity.netlify.app/book
+
+### New Life Deliverance Tabernacle
+Church website with a custom member portal.newlife-deliverance-tabernacle.netlify.app
+
+### OG Barnes
+Brand website.ogbarnes.netlify.app
+
+## Straight answers
+ 
+Still unsure? Send us your idea and ask. There's no charge to submit.
+ 
+Read our guides on turning ideas into products
+
+### How much does it cost to turn an idea into a working prototype?
+
+An Idea Blueprint is $299. A working Prototype, with a live website, admin dashboard and one working feature, is $799. Prototype Plus, with up to three features, is $1,499. Prices are fixed and paid up front through Square. For comparison, agencies commonly quote $5,000 to $150,000 for a full MVP.
+
+### How fast will I see my idea working?
+
+Blueprints arrive in 24–48 hours. Prototypes take 3–5 business days and Plus takes 5–7, counted from when your scope is confirmed (usually the same or next business day).
+
+### What's the difference between a prototype and a finished app?
+
+A prototype is the first working version of your idea: a real, live website and dashboard where one to three features actually work. It's built to show, test and pitch. It isn't a production platform with card payments, large user bases, complex integrations or regulated data like health records. We can quote that next phase once you've seen your prototype.
+
+### Do I need to be technical?
+
+No. You describe the idea in plain words, and we handle the design, code and setup, then walk you through it on a call.
+
+### Who owns my idea and the work?
+
+You own your idea. What you submit is confidential and never reused or shared. Once you've paid in full, the website content and design we make for you are yours. Details are in our service terms.
+
+### What if my idea is too big for the package?
+
+Every idea gets a fit check within one business day of payment, before we start. If it doesn't fit, we'll recommend the right package (and you only pay the difference) or refund you in full.
+
+### Why not just use a DIY AI app builder?
+
+DIY builders are cheap, but you're the designer, the tester and the person who fixes things at midnight. With Idea2Launch, developers who build portals for real businesses do it for you, with a fixed price, a deadline and a walkthrough.
+
+### What happens after delivery?
+
+You keep the demo link to share. If you want it to stay online and get small updates, Launch Care starts at $99/month. When you're ready for the full version, we'll quote it from your roadmap.
+
+### Can I pay in installments?
+
+Packages are paid up front, which is how we keep prices this low and turnaround this fast. Square Checkout may offer buy-now-pay-later options such as Afterpay or Cash App Pay, depending on your eligibility.
+
+## Five days from now, you could be sending people a link to your idea.
+ 
+Or you could keep it in the notebook another year. It takes five minutes to start.
+
+ Build my prototype for $799
+ Start with a $299 Blueprint
+ 
+Fit guarantee: if your idea isn't a fit, you get your money back before we start.
+
+
+---
+Idea2Launch / Guides / Prototype costs
+
+## How much does it cost to build a prototype in 2026?
+
+By Azaiah Wood, Developer & Solutions Architect at DataIsData. Updated October 24, 2026.
+
+## The short answer
+
+A working prototype (a live website, a back-office dashboard and one feature that really works) costs $799 with Idea2Launch and takes 3–5 business days. A written concept and mockup (a blueprint) is $299. A full MVP from a development agency typically costs $5,000 to $150,000 and takes months.
+
+## Prototype and MVP costs at a glance
+
+What you're buying | Typical cost | Typical time | What you get | 
+
+Idea blueprint (concept + mockup + roadmap) | $299 with Idea2Launch | 24–48 hours | A clear plan and a picture of the main screen | 
+
+Working prototype (site + dashboard + 1 feature) | $799 with Idea2Launch | 3–5 business days | A live link people can use | 
+
+Prototype with up to 3 features | $1,499 with Idea2Launch | 5–7 business days | A fuller demo for multi-step ideas | 
+
+Bare-bones single-feature MVP from an agency | About $5,000 | Weeks | A production starting point | 
+
+Consumer app MVP | $10,000–$50,000 | 2–4 months | A launchable app | 
+
+Fintech or regulated healthtech MVP | $50,000–$350,000+ | 4–9 months | Compliance-ready product | 
+
+Agency figures: Techtic, "MVP Development Cost in 2026: Complete Pricing Breakdown." Idea2Launch figures are our published fixed prices.
+
+## What drives the price up
+
+- Number of features that must work. Each working feature (bookings, payments, messaging) adds design, code and testing.
+
+- User accounts and roles. Logins, permissions and multiple user types multiply the work.
+
+- Integrations. Payments, calendars, CRMs and third-party APIs each add setup and failure cases.
+
+- Regulated data. Health, financial or children's data brings security and compliance requirements that can double or triple cost.
+
+- Native mobile apps. Separate iOS and Android builds cost far more than a mobile-ready website.
+
+## Why a prototype first is the smart money move
+
+The key point is this: most ideas change after real people see them. Spending $799 to put a working version in front of customers, partners or a lender tells you what to build before you commit $10,000 or more. Your prototype's roadmap then becomes the spec for the full build, so nothing is wasted.
+
+## Three ways to get a prototype, compared
+
+ | Do it yourself with an AI builder | Hire a freelancer | Idea2Launch | 
+
+Money | Low monthly fee | Hourly, open-ended | $799 fixed | 
+
+Your time | High: you design, test and fix | Medium: you manage the project | About 5 minutes plus a walkthrough | 
+
+Dashboard included | If you can build it | Sometimes | Always | 
+
+Deadline | None | Varies | 3–5 business days | 
+
+## Questions people ask
+
+### What is the cheapest way to get a working prototype?
+The cheapest done-for-you option is a fixed-scope prototype service. Idea2Launch builds a live website, admin dashboard and one working feature for $799. DIY AI builders cost less in money but more in your time.
+
+### How much does an MVP cost in 2026?
+Published 2026 industry pricing puts most MVPs between $5,000 and $150,000, with bare-bones single-feature builds around $5,000 and regulated products such as HIPAA healthtech reaching $150,000–$350,000 or more.
+
+### Is a prototype the same as an MVP?
+No. A prototype proves the idea works and can be shown to people; an MVP is the smallest version real customers can use and pay for at scale. Many founders build a prototype first to validate demand before paying for an MVP.
+
+### How long does it take to build a prototype?
+A focused prototype with one working feature can be delivered in 3–5 business days. A full MVP from an agency usually takes two to six months.
+
+## Want to see your idea working this week?
+Idea2Launch builds a live website, admin dashboard and one working feature for a fixed $799, in 3–5 business days. Blueprints start at $299.
+Start my idea
+
+
+---
+Idea2Launch / Guides / Blueprint vs prototype vs MVP
+
+## Blueprint vs prototype vs MVP: which one do you need?
+
+By Azaiah Wood, Developer & Solutions Architect at DataIsData. Updated October 24, 2026.
+
+## The short answer
+
+A blueprint is a plan you can read. A prototype is a working version you can click and share. An MVP is a product customers can sign up for and pay for. Most first-time founders should go blueprint or prototype first, then MVP once real people have reacted.
+
+## Side-by-side
+
+ | Blueprint | Prototype | MVP | 
+
+What it is | Concept outline, feature plan, mockup, roadmap | Live website + dashboard + 1–3 working features | Production product with accounts, payments, integrations | 
+
+Can people use it? | No, they can look at it | Yes, the core feature works | Yes, fully | 
+
+Best for | Shaping the idea, pitching, budgeting | Testing demand, demos, first customers | Launching and charging at scale | 
+
+Idea2Launch price | $299 | $799–$1,499 | Quoted from your roadmap | 
+
+Time | 24–48 hours | 3–7 business days | Weeks to months | 
+
+## Choose a blueprint if…
+
+- You can't yet describe the one thing it must do.
+- You need a document to share with a partner, board, pastor or lender.
+- You want a price and plan before committing to a build.
+
+## Choose a prototype if…
+
+- You know the core action: book, order, sign up, list, request.
+- You want a link to text people this week.
+- You want to replace a manual process (texts, paper, spreadsheets) and see if it sticks.
+
+## Choose an MVP if…
+
+- People have already used a prototype and asked for more.
+- You need payments, logins and integrations to serve real volume.
+- You have a budget in the thousands and a timeline in months.
+
+## Questions people ask
+
+### Should I start with a blueprint or a prototype?
+Start with a blueprint if you're still deciding what the product should do or need a plan to pitch. Start with a prototype if you already know the one thing it must do and want people to use it.
+
+### Can a prototype take real customers?
+Yes, for simple flows. A prototype's working feature, such as booking requests or sign-ups, really captures submissions in your dashboard. It just doesn't include payments or large-scale accounts.
+
+### What comes after a prototype?
+An MVP: the smallest production version with the accounts, payments and integrations real customers need. Your prototype roadmap becomes its spec.
+
+## Want to see your idea working this week?
+Idea2Launch builds a live website, admin dashboard and one working feature for a fixed $799, in 3–5 business days. Blueprints start at $299.
+Start my idea
+
+
+---
+Idea2Launch / Guides / Turn your idea into an app
+
+## How to turn your business idea into an app (without a tech background)
+
+By Azaiah Wood, Developer & Solutions Architect at DataIsData. Updated October 24, 2026.
+
+## The short answer
+
+Define the one thing your app must do, sketch the main screen, then get a working prototype (a live website plus a dashboard) in front of real people before spending on a full app. With Idea2Launch that first working version takes 3–5 business days and costs $799.
+
+## Six steps from idea to working app
+
+- Write the idea in one sentence. Who it's for, what it does, and why it's better than what they do now. Example: "Car owners book a detail at home in two taps instead of texting back and forth."
+- Pick the one action that matters. Booking, ordering, signing up, listing or requesting. If your first version only did this one thing, would it be useful? That's your working feature.
+- Sketch the main screen. Napkin is fine. What does someone see first, and what button do they press?
+- Get a working prototype. Build it yourself, hire a freelancer, or use a fixed-price service. Idea2Launch delivers a live website, admin dashboard and the working feature in 3–5 business days for $799.
+- Put it in front of 10 real people. Text the link to potential customers. Watch what they do, not just what they say.
+- Plan the full build from evidence. Use what you learned to decide the next features, then budget the MVP.
+
+## Mistakes that cost first-time founders the most
+
+- Building everything at once. Ten features in version one means months and tens of thousands before you learn anything.
+
+- Starting with native apps. A mobile-ready website reaches every phone for a fraction of the cost.
+
+- Paying hourly with no scope. Fixed scope and fixed price protect you from runaway bills.
+
+- Never showing it to anyone. The goal of version one is feedback, not perfection.
+
+## Questions people ask
+
+### Can I build an app with no coding experience?
+Yes. You can use a DIY builder and do the work yourself, or hire a done-for-you service like Idea2Launch where you describe the idea and developers build it.
+
+### Do I need an app or a website?
+For most first versions, a mobile-ready website works on every phone, costs far less than native iOS and Android apps, and can be shared with a link. Build native apps after you've proven demand.
+
+### How do I protect my app idea?
+Share it with people who keep it confidential, keep dated records of your work, and use a service whose terms state your idea stays yours. Ideas alone usually can't be patented; execution is what protects you.
+
+## Want to see your idea working this week?
+Idea2Launch builds a live website, admin dashboard and one working feature for a fixed $799, in 3–5 business days. Blueprints start at $299.
+Start my idea
+
+
+---
+## Idea2Launch service terms
+
+Last updated October 24, 2026. These terms apply to Idea2Launch packages sold by DataIsData, LLC ("DataIsData", "we").
+
+## 1. What you're buying
+
+Idea2Launch packages are fixed-scope prototypes and blueprints, not production software.
+
+- Idea Blueprint ($299): written concept outline, feature recommendations, one visual mockup and a roadmap. No deployed website.
+
+- Idea2Launch Prototype ($799): one landing page, one light admin dashboard, one working feature, a private demo link, a walkthrough and one revision round.
+
+- Idea2Launch Plus ($1,499): a polished multi-section website, dashboard, up to three working features, an expanded roadmap and two revision rounds.
+
+## 2. What's not included
+
+Unless agreed in writing, packages exclude payment processing, complex third-party integrations, regulated or sensitive data (for example health, financial or children's data), advanced security hardening, native mobile apps, custom domains and production-grade hosting. Prototypes may use sample data.
+
+## 3. Payment and fit guarantee
+
+Packages are paid in full up front through Square. Within one business day of payment we review your submission. If your idea doesn't fit the package you bought, we'll recommend the right package (you pay only the difference) or refund you in full. Once we confirm scope and you approve it, work begins and the package is non-refundable except where we fail to deliver the agreed scope.
+
+Blueprint credit: if you buy an Idea Blueprint and upgrade to a Prototype or Plus for the same idea within 30 days, the $299 is credited toward it.
+
+## 4. Timelines
+
+Delivery windows (24–48 hours, 3–5 or 5–7 business days) start when your scope is confirmed and any information we need from you is received. Priority build moves your project to the front of our queue; it doesn't change the scope.
+
+## 5. Revisions
+
+A revision round is one consolidated list of changes within the agreed scope, sent within 14 days of delivery. New features or changes outside the scope are quoted separately.
+
+## 6. Ownership and confidentiality
+
+Your idea is yours. We keep your submission confidential and don't share or reuse your concept. Once you've paid in full, the content and design created specifically for your project are yours. DataIsData keeps ownership of its pre-existing tools, templates and reusable components, and grants you a license to use them as part of your delivered prototype. We may mention that we worked with you only with your permission.
+
+## 7. Hosting after delivery
+
+We keep your demo online for 30 days after delivery. Ongoing hosting and small updates are available through Launch Care, from $99/month, under separate terms.
+
+## 8. Limits of liability
+
+Prototypes are provided for demonstration and testing. To the extent permitted by law, DataIsData's total liability for any claim is limited to the amount you paid for the package.
+
+## 9. Contact
+
+Questions about these terms? Reply to any email from DataIsData about your order.
