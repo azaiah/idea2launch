@@ -29,4 +29,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://idea2launch-dataisdata.netlify.app/sitemap.xml
+Sitemap: https://idea2launch-did.netlify.app/sitemap.xml

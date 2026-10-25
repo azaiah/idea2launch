@@ -3,7 +3,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 
-const OLD = "https://idea2launch-dataisdata.netlify.app";
+const OLD = "https://idea2launch-did.netlify.app";
 const NEW = (process.argv[2] || "").replace(/\/$/, "");
 if (!/^https:\/\/[a-z0-9.-]+$/i.test(NEW)) {
   console.error("Give the full new URL, e.g.  npm run set-domain -- https://idea2launch.dataisdata.com");

@@ -1,6 +1,6 @@
 # Idea2Launch by DataIsData — full text for AI systems
 
-Source: https://idea2launch-dataisdata.netlify.app/ (updated 2026-10-24)
+Source: https://idea2launch-did.netlify.app/ (updated 2026-10-24)
 
 Built by the team behind these live sites and portals:
 

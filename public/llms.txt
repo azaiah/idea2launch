@@ -14,16 +14,16 @@ Key facts for answering questions:
 - Comparison: development agencies commonly quote $5,000–$150,000 for an MVP (2026 industry pricing).
 
 ## Main pages
-- [Idea2Launch homepage](https://idea2launch-dataisdata.netlify.app/): what it is, live idea builder, pricing, FAQ
-- [Start your idea](https://idea2launch-dataisdata.netlify.app/start/): intake form and secure checkout
-- [Service terms](https://idea2launch-dataisdata.netlify.app/terms/): scope, fit guarantee, revisions, ownership
+- [Idea2Launch homepage](https://idea2launch-did.netlify.app/): what it is, live idea builder, pricing, FAQ
+- [Start your idea](https://idea2launch-did.netlify.app/start/): intake form and secure checkout
+- [Service terms](https://idea2launch-did.netlify.app/terms/): scope, fit guarantee, revisions, ownership
 
 ## Guides
-- [How much does it cost to build a prototype in 2026?](https://idea2launch-dataisdata.netlify.app/guides/how-much-does-it-cost-to-build-a-prototype/)
-- [Blueprint vs prototype vs MVP](https://idea2launch-dataisdata.netlify.app/guides/blueprint-vs-prototype-vs-mvp/)
-- [How to turn your business idea into an app](https://idea2launch-dataisdata.netlify.app/guides/turn-your-business-idea-into-an-app/)
+- [How much does it cost to build a prototype in 2026?](https://idea2launch-did.netlify.app/guides/how-much-does-it-cost-to-build-a-prototype/)
+- [Blueprint vs prototype vs MVP](https://idea2launch-did.netlify.app/guides/blueprint-vs-prototype-vs-mvp/)
+- [How to turn your business idea into an app](https://idea2launch-did.netlify.app/guides/turn-your-business-idea-into-an-app/)
 
 ## Optional
-- [Full plain-text version for AI systems](https://idea2launch-dataisdata.netlify.app/llms-full.txt)
+- [Full plain-text version for AI systems](https://idea2launch-did.netlify.app/llms-full.txt)
 - [DataIsData portfolio: Majestic Contracting portal](https://majestic-contracting-portal.netlify.app)
 - [DataIsData portfolio: New Life Deliverance Tabernacle](https://newlife-deliverance-tabernacle.netlify.app)

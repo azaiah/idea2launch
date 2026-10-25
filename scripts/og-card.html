@@ -1,0 +1,355 @@
+<!doctype html>
+<!--
+  Source for the text-message preview card.
+  Rendered to public/assets/img/og-card.png at exactly 1200×630.
+  Messaging apps (iMessage, WhatsApp, Messenger) show this image above the link.
+  Keep the important words large. The card is viewed at about the width of a phone.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Idea2Launch share card</title>
+<style>
+  @font-face {
+    font-family: "Archivo";
+    src: url("../public/assets/fonts/archivo-var.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: block;
+  }
+  @font-face {
+    font-family: "Caveat";
+    src: url("../public/assets/fonts/caveat-var.woff2") format("woff2");
+    font-weight: 500 700;
+    font-display: block;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    background: #14213d;
+  }
+
+  .card {
+    width: 1200px;
+    height: 630px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    font-family: "Archivo", system-ui, sans-serif;
+    background:
+      radial-gradient(700px 480px at 92% 42%, rgba(255, 216, 77, 0.22), transparent 62%),
+      radial-gradient(520px 360px at 8% 100%, rgba(59, 111, 224, 0.35), transparent 70%),
+      #14213d;
+  }
+
+  /* Faint blueprint grid, fading out behind the product card. */
+  .card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+    background-size: 40px 40px;
+    -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 48%, transparent 78%);
+    mask-image: linear-gradient(90deg, #000 0%, #000 48%, transparent 78%);
+  }
+
+  /* Yellow rail so the card still reads as Idea2Launch when it is cropped small. */
+  .rail {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 16px;
+    background: #ffd84d;
+  }
+
+  .copy {
+    position: relative;
+    z-index: 2;
+    padding: 52px 0 48px 64px;
+    width: 700px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .brand img.mark {
+    width: 76px;
+    height: 76px;
+    display: block;
+  }
+
+  .name {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    font-variation-settings: "wdth" 112;
+    line-height: 1;
+  }
+
+  .by {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    color: #d5dceb;
+    font-size: 18px;
+    font-weight: 650;
+    letter-spacing: 0.01em;
+  }
+
+  .by img {
+    width: 18px;
+    height: 18px;
+    display: block;
+  }
+
+  h1 {
+    margin-top: 36px;
+    font-size: 78px;
+    line-height: 0.92;
+    font-weight: 800;
+    letter-spacing: -0.045em;
+    font-variation-settings: "wdth" 118;
+    max-width: 620px;
+  }
+
+  .days {
+    display: inline-block;
+    margin-top: 22px;
+    background: #ffd84d;
+    color: #14213d;
+    font-size: 86px;
+    line-height: 0.95;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    font-variation-settings: "wdth" 120;
+    padding: 6px 18px 10px;
+    border-radius: 14px;
+  }
+
+  .sub {
+    margin-top: 22px;
+    font-size: 26px;
+    line-height: 1.25;
+    font-weight: 560;
+    color: #e6ebf4;
+    max-width: 520px;
+  }
+
+  .price {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .price strong {
+    background: #ffd84d;
+    color: #14213d;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    padding: 12px 18px;
+    border-radius: 999px;
+  }
+
+  .price span {
+    color: #c9d3e4;
+    font-size: 22px;
+    font-weight: 650;
+  }
+
+  /* The product, so the card shows "a real site" and not only type. */
+  .stage {
+    position: absolute;
+    z-index: 2;
+    right: 48px;
+    top: 54px;
+    width: 430px;
+    height: 522px;
+  }
+
+  .window {
+    width: 430px;
+    height: 500px;
+    background: #f7f8fb;
+    color: #14213d;
+    border-radius: 28px;
+    overflow: hidden;
+    box-shadow:
+      0 28px 70px rgba(0, 0, 0, 0.38),
+      0 0 0 1px rgba(255, 255, 255, 0.12);
+    transform: rotate(2deg);
+    transform-origin: center center;
+  }
+
+  .chrome {
+    height: 54px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 18px;
+    border-bottom: 1px solid #e6ebf2;
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #d5dce7;
+  }
+
+  .dot:first-child { background: #ffd84d; }
+
+  .url {
+    margin-left: 8px;
+    background: #f3f5f8;
+    color: #566079;
+    font-size: 15px;
+    font-weight: 650;
+    padding: 6px 12px;
+    border-radius: 999px;
+  }
+
+  .app {
+    padding: 22px 22px 0;
+  }
+
+  .kicker {
+    color: #3b6fe0;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .app h2 {
+    margin-top: 6px;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    font-weight: 800;
+  }
+
+  .app p {
+    margin-top: 8px;
+    color: #566079;
+    font-size: 16px;
+    font-weight: 560;
+  }
+
+  .row {
+    margin-top: 14px;
+    background: #fff;
+    border: 1px solid #e1e7f0;
+    border-radius: 14px;
+    padding: 12px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .row b { font-weight: 800; }
+  .row em {
+    font-style: normal;
+    color: #1d8a5a;
+    font-size: 14px;
+    font-weight: 800;
+    background: #e5f6ee;
+    padding: 4px 8px;
+    border-radius: 999px;
+  }
+
+  .cta {
+    margin-top: 16px;
+    background: #ffd84d;
+    color: #14213d;
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 14px 12px;
+    border-radius: 12px;
+  }
+
+  .note {
+    position: absolute;
+    left: -28px;
+    bottom: 18px;
+    background: #fffdf6;
+    color: #14213d;
+    font-family: "Caveat", cursive;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 12px 16px 10px;
+    border-radius: 8px;
+    transform: rotate(-6deg);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+  }
+</style>
+</head>
+<body>
+  <article class="card">
+    <div class="rail"></div>
+    <div class="copy">
+      <div class="brand">
+        <img class="mark" src="../public/assets/img/idea2launch-mark-white.png" alt="">
+        <div>
+          <div class="name">Idea2Launch</div>
+          <div class="by">
+            <img src="../public/assets/img/dataisdata-mark-white.png" alt="">
+            Presented by DataIsData
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h1>Your idea, working.</h1>
+        <div class="days">5 days.</div>
+        <p class="sub">A real website and dashboard, built for you.</p>
+      </div>
+
+      <div class="price">
+        <strong>From $799</strong>
+        <span>Fixed price · real developers</span>
+      </div>
+    </div>
+
+    <div class="stage">
+      <div class="window">
+        <div class="chrome">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="url">youridea.live</span>
+        </div>
+        <div class="app">
+          <div class="kicker">Live prototype</div>
+          <h2>Book a time</h2>
+          <p>Customers pick a service. You see every request.</p>
+          <div class="row"><b>Full detail</b><em>New</em></div>
+          <div class="row"><b>Interior + wax</b><em>Booked</em></div>
+          <div class="row"><b>Saturday 10:00</b><em>Open</em></div>
+          <div class="cta">Show me my idea working</div>
+        </div>
+      </div>
+      <div class="note">your idea → working</div>
+    </div>
+  </article>
+</body>
+</html>
